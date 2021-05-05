@@ -1,0 +1,62 @@
+.joinNow{
+    background: url("../img/joinNow/joinNow__back.png") no-repeat;
+    background-size: cover;
+}
+
+.joinNow>.wrapper{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 113px;
+    padding-bottom: 134px;
+    padding-right: 4px;
+}
+
+
+.joinNow__block{
+    position: relative;
+    width: 547px;
+}
+
+.joinNow__desImg{
+    position: absolute;
+    top: -7px;
+    left: -55px;
+}
+
+
+.joinNow__title{
+    font-size: 60.699px;
+    font-family: "OpenSans";
+    color: rgb(72, 79, 91);
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: 2.6px;
+    max-width: 400px;
+    margin-left: -13px;
+    margin-bottom: 29px;
+}
+
+
+.joinNow__text{
+    font-size: 21px;
+    font-family: "OpenSans";
+    color: rgb(72, 79, 91);
+    line-height: 1.6;
+    letter-spacing: 1.5px;
+    margin-bottom: 39px;
+}
+
+
+.joinNow__button{
+    background-color: rgb(230, 200, 195);
+    width: 203px;
+    height: 50px;
+    font-size: 21px;
+    font-family: "OpenSans";
+    color: rgb(72, 79, 91);
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

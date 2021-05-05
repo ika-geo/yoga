@@ -1,0 +1,53 @@
+.PregWomProg{
+    background: url("../img/PregWomProg/pregBack.png");
+    background-size: cover;
+    position: relative;
+}
+
+.PregWomProg .wrapper{
+    padding-top: 161px;
+    padding-bottom: 175px;
+    margin-top: -49px;
+}
+
+
+.PregWomProg__block{
+    max-width: 51%;
+}
+
+.PregWomProg__title{
+    font-size: 82.327px;
+    font-family: "OpenSans";
+    color: rgb(72, 79, 91);
+    font-weight: bold;
+    line-height: 1.15;
+    letter-spacing: 3px;
+    margin-bottom: 54px;
+    margin-left: -10px;
+}
+
+.PregWomProg__text{
+    max-width: 88%;
+    font-size: 21px;
+    font-family: "OpenSans";
+    color: rgb(72, 79, 91);
+    line-height: 1.6;
+    letter-spacing: 1.5px;
+    margin-bottom: 79px;
+}
+
+
+.PregWomProg__join{
+    background-color: rgb(230, 200, 195);
+    width: 203px;
+    height: 50px;
+    border: none;
+    font-size: 21px;
+    font-family: "OpenSans";
+    color: rgb(72, 79, 91);
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

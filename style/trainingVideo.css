@@ -1,0 +1,88 @@
+.trainingVideo{
+    background-color: rgb(229, 204, 198);
+    margin-top: -22px;
+}
+
+
+.trainingVideo .wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 22px;
+    padding-bottom: 158px;
+}
+
+.trainingVideo__video{
+    margin-top: 130px;
+}
+
+
+.trainingVideo__video iframe{
+    width: 627px;
+    height: 418px;
+    box-shadow: 12.856px 15.321px 43px 0px rgba(12, 13, 12, 0.59);
+}
+
+
+
+.trainingVideo__right{
+    max-width: 543px;
+    padding-top: 151px;
+    margin-right: 19px;
+}
+
+.trainingVideo__title{
+    font-size: 59.699px;
+    font-family: "OpenSans";
+    color: rgb(72, 79, 91);
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: 4px;
+    margin-bottom: 28px;
+    max-width: 460px;
+}
+
+
+.trainingVideo__text{
+    font-size: 22px;
+    font-family: "OpenSans";
+    color: rgb(72, 79, 91);
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+
+
+.trainingVideo__socialMedia{
+    display: flex;
+}
+
+
+.trainingVideo__socialMediaFrame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(72, 79, 91);
+    width: 38px;
+    height: 38px;
+    margin-right: 44px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.trainingVideo__socialMediaFrame:hover{
+    border-radius: 50%;
+    transition-duration: 0.2s;
+}
+
+
+.trainingVideo__socialMediaFrame:nth-child(1):hover{
+    background-color: #1877f2;
+}
+
+.trainingVideo__socialMediaFrame:nth-child(2):hover{
+    background-color: #ea0000;
+}
+
+.trainingVideo__socialMediaFrame:nth-child(3):hover{
+    background-color: #4fc5f7;
+}

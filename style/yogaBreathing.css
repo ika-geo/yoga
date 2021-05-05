@@ -1,0 +1,127 @@
+.yogaBreathing{
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 110px;
+}
+
+
+.yogaBreathing__desImg1{
+    position: absolute;
+    top: -9px;
+    left: 0;
+    z-index: 20;
+}
+
+
+.yogaBreathing__desImg2{
+    position: absolute;
+    bottom: -66px;
+    left: 0;
+    z-index: 20;
+}
+
+
+
+
+.yogaBreathing .wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.yogaBreathing__left{
+    width: 50%;
+    position: relative;
+    z-index: 50;
+}
+
+.yogaBreathing__right{
+    width: 50%;
+}
+
+
+
+.yogaBreathing__title{
+    max-width: 460px;
+    font-size: 56.699px;
+    font-family: "OpenSans";
+    color: rgb(72, 79, 91);
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: 5.8px;
+    margin-top: 113px;
+    margin-left: -9px;
+    margin-bottom: 35px;
+}
+
+
+
+.yogaBreathing__text{
+    max-width: 550px;
+    font-size: 21px;
+    font-family: "OpenSans";
+    color: rgb(72, 79, 91);
+    line-height: 1.6;
+    letter-spacing: 1.5px;
+    margin-bottom: 39px;
+}
+
+
+.yogaBreathing__learnMore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 200, 195);
+    width: 203px;
+    height: 50px;
+    font-size: 21px;
+    font-family: "OpenSans";
+    color: rgb(72, 79, 91);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+
+.yogaBreathing__img{
+    position: relative;
+    margin-top: 40px;
+    margin-left: -1px;
+    z-index: 50;
+}
+
+.yogaBreathing__img{
+    position: relative;
+}
+
+
+.yogaBreathing__imgDesImg1{
+    position: absolute;
+    top: -22px;
+    left: -86px;
+    z-index: 20;
+}
+
+
+.yogaBreathing__imgDesImg2{
+    position: absolute;
+    top: -15px;
+    right: -61px;
+    z-index: 20;
+}
+
+.yogaBreathing__imgDesImg3{
+    position: absolute;
+    bottom: -32px;
+    left: -33px;
+    z-index: 100;
+}
+
+.yogaBreathing__imgDesImg4{
+    position: absolute;
+    bottom: -59px;
+    right: -57px;
+    z-index: 100;
+}

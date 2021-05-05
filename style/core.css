@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    display: block;
+}
+
+.wrapper{
+    width: 1254px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media screen and (max-width: 768px){
+    .wrapper{
+        max-width: 100vw;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+
+button{
+    cursor: pointer;
+    border: none;
+}
+
+
+input[type="submit"]{
+    cursor: pointer;
+}
