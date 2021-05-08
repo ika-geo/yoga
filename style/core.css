@@ -12,10 +12,16 @@ a{
 
 .wrapper{
     width: 1254px;
+    min-width: 1254px;
     margin-left: auto;
     margin-right: auto;
 }
 
+
+.mainBlock{
+    min-width: 1254px;
+    background-size: cover;
+}
 
 @media screen and (max-width: 768px){
     .wrapper{

@@ -1,0 +1,121 @@
+
+footer{
+    background-color: #484f5b;
+}
+
+.footer__block{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 66px 76px 42px 69px;
+}
+
+.footer__block>div:not(:last-child){
+    margin-right: 15px;
+}
+
+
+                                                                /*footer__yourCompany*/
+
+.footer__yourCompany{
+    max-width: 190px;
+}
+
+.footer__yourCompany__title{
+    font-size: 25px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 29px;
+}
+
+.footer__yourCompany__text{
+    font-size: 20px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    line-height: 1.4;
+    margin-bottom: 36px;
+}
+
+
+.footer__yourCompany a{
+    font-size: 20px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+}
+
+
+                                                                    /*footer__siteMap, footer__loremIpsum, footer__sitAmet*/
+
+
+.footer__siteMap ul, .footer__loremIpsum ul, .footer__sitAmet ul {
+    font-size: 16.667px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    letter-spacing: 2.5px;
+}
+
+
+.footer__siteMap li, .footer__loremIpsum li ,.footer__sitAmet li{
+    font-size: 16.667px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    margin-top: 9px;
+    font-weight: normal;
+}
+
+
+                                                            /*.footer__copyRight*/
+
+.footer__copyRight{
+    max-width: 270px;
+    margin-top: -9px;
+    margin-left: -1px;
+    margin-bottom: 23px;
+}
+
+.footer__img{
+    margin-left: -1px;
+    margin-bottom: 24px;
+}
+
+
+.footer__copyRight p {
+    font-size: 18.667px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    margin-left: 13px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.footer__socialMedia{
+    display: flex;
+    margin-left: 13px;
+}
+
+
+.footer__socialImg {
+    width: 22px;
+    height: 22px;
+    margin-right: 25px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.2s;
+}
+
+
+.footer__socialImg:hover{
+    transform: translate(3px, 3px);
+    box-shadow: none;
+    transition-duration: 0.2s;
+}
+
