@@ -6,11 +6,24 @@
 
 .gallery .wrapper{
     padding-top: 79px;
-    padding-bottom: 120px;
+    padding-bottom: 110px;
     position: relative;
     z-index: 50;
 }
 
+@media screen and (max-width: 768px){
+    .gallery .wrapper{
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .gallery .wrapper{
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+}
 
 
 
@@ -52,6 +65,12 @@
     margin-bottom: 51px;
 }
 
+@media screen and (max-width: 768px){
+    .gallery__textBlock{
+        margin-bottom: 20px;
+    }
+}
+
 .gallery__title{
     font-size: 60.333px;
     font-family: "OpenSans";
@@ -60,6 +79,20 @@
     text-align: center;
     letter-spacing: 3px;
     margin-bottom: 35px;
+}
+
+@media screen and (max-width: 768px){
+    .gallery__title{
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .gallery__title{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
 }
 
 .gallery__text{
@@ -73,6 +106,12 @@
 }
 
 
+@media screen and (max-width: 768px){
+    .gallery__title{
+        max-width: unset;
+    }
+}
+
 .gallery__photos{
     display: flex;
     justify-content: space-between;
@@ -80,22 +119,47 @@
     padding-left: 2px;
 }
 
+@media screen and (max-width: 768px){
+    .gallery__photos{
+        flex-direction: column;
+        justify-content: unset;
+        align-items: center;
+    }
+}
+
+
 .gallery__item{
     display: flex;
     flex-direction: column;
     align-items: center;
     box-shadow: 11.437px 17.612px 23.28px 0.72px rgba(12, 13, 12, 0.1);
     background-color: white;
+    margin-bottom: 10px;
 }
 
 .gallery__item:not(:last-child){
     margin-right: 20px;
 }
 
+@media screen and (max-width: 768px){
+    .gallery__item:not(:last-child){
+        margin-right: unset;
+    }
+}
+
 
 .gallery__item__img{
     margin-bottom: 32px;
 }
+
+@media screen and (max-width: 768px){
+    .gallery__item__img{
+        margin-bottom: 20px;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
 
 .gallery__item__title{
     font-size: 35.333px;
@@ -107,6 +171,15 @@
     margin-bottom: 17px;
 }
 
+@media screen and (max-width: 768px){
+    .gallery__item__title{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+}
+
+
+
 .gallery__item__text{
     font-size: 17.667px;
     font-family: "OpenSans";
@@ -116,4 +189,16 @@
     max-width: 300px;
     letter-spacing: 0.9px;
     margin-bottom: 35px;
+}
+
+@media screen and (max-width: 768px){
+    .gallery__item__text{
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .gallery__item__text{
+        margin-bottom: 20px;
+    }
 }

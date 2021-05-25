@@ -4,6 +4,20 @@
     padding-bottom: 110px;
 }
 
+@media screen and (max-width: 768px){
+    .yogaBreathing{
+        padding-bottom: 70px;
+    }
+}
+
+
+@media screen and (max-width: 425px){
+    .yogaBreathing{
+        padding-bottom: 30px;
+    }
+}
+
+
 
 .yogaBreathing__desImg1{
     position: absolute;
@@ -22,13 +36,20 @@
 
 
 
-
 .yogaBreathing .wrapper{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
+@media screen and (max-width: 768px){
+    .yogaBreathing .wrapper{
+        justify-content: unset;
+        align-items: center;
+        flex-direction: column;
+    }
+
+}
 
 .yogaBreathing__left{
     width: 50%;
@@ -36,8 +57,21 @@
     z-index: 50;
 }
 
+@media screen and (max-width: 768px){
+    .yogaBreathing__left{
+        width: 100%;
+    }
+
+}
+
 .yogaBreathing__right{
     width: 50%;
+}
+
+@media screen and (max-width: 768px){
+    .yogaBreathing__right{
+        width: 100%;
+    }
 }
 
 
@@ -55,6 +89,31 @@
     margin-bottom: 35px;
 }
 
+@media screen and (max-width: 768px){
+    .yogaBreathing__title{
+        max-width: unset;
+        font-size: 50px;
+        margin-top: 80px;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .yogaBreathing__title{
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .yogaBreathing__title{
+        font-size: 40px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+}
+
 
 
 .yogaBreathing__text{
@@ -66,6 +125,24 @@
     letter-spacing: 1.5px;
     margin-bottom: 39px;
 }
+
+
+@media screen and (max-width: 768px){
+    .yogaBreathing__text{
+        max-width: unset;
+        font-size: 19px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .yogaBreathing__text{
+        align-items: center;
+        margin-bottom: 20px;
+    }
+}
+
+
 
 
 .yogaBreathing__learnMore{
@@ -82,7 +159,12 @@
     text-transform: uppercase;
 }
 
-
+@media screen and (max-width: 425px){
+    .yogaBreathing__learnMore{
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
 
 
 .yogaBreathing__img{
@@ -92,8 +174,18 @@
     z-index: 50;
 }
 
-.yogaBreathing__img{
-    position: relative;
+@media screen and (max-width: 1439px){
+    .yogaBreathing__img{
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .yogaBreathing__img{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
 }
 
 

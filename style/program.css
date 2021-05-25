@@ -5,12 +5,34 @@
     padding: 110px 166px 108px;
 }
 
+@media screen and (max-width: 1439px){
+    .program__block{
+        padding: 110px 0 108px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .program__block{
+        justify-content: unset;
+        align-items: center;
+        padding: 0;
+        flex-direction: column;
+    }
+}
+
 
 .program__item{
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+
+@media screen and (max-width: 768px){
+    .program__item{
+        margin-bottom: 30px;
+    }
 }
 
 .program__image{
@@ -35,7 +57,6 @@
     top: -31px;
     right: 39px;
 }
-
 
 
 .program__title {
