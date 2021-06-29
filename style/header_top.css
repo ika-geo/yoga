@@ -7,33 +7,15 @@
     margin-bottom: 10px;
 }
 
-.header__top__menu{
+
+.header__menuList{
     display: flex;
     justify-content: start;
     flex-wrap: wrap;
 }
 
 
-@media screen and (max-width: 425px){
-    .header__top__menu{
-        display: none;
-    }
-}
-
-
-.header__top__menuMobile{
-    display: none;
-}
-
-
-@media screen and (max-width: 425px){
-    .header__top__menu{
-        display: block;
-    }
-}
-
-
-.header__top__menu a{
+.header__menuList a{
     font-size: 21px;
     font-family: "OpenSans";
     letter-spacing: 1.4px;
@@ -41,12 +23,12 @@
     margin-bottom: 15px;
 }
 
-.header__top__menu a:hover{
+.header__menuList a:hover{
     color: #e9a59d;
 }
 
 
-.header__top__menu a:not(:last-child){
+.header__menuList li:not(:last-child){
     margin-right: 73.3px;
 }
 
